@@ -8,7 +8,7 @@ print(hex(number)[2:])
 
 while number > 15:
     result.append(str(number % 16))
-    number = number // 16
+    number //= 16
 result.append(str(number))
 
 result.reverse()
