@@ -5,6 +5,7 @@
 
 import itertools
 
+
 items = {
     "Палатка": 2.2,
     "Тент": 1.1,
@@ -21,37 +22,17 @@ items = {
     "Еда": 3,
          }
 
-res = items.keys()
-r2 = list(res)
-print(r2)
+payload = int(input("Сколько килограммов сможешь унести?\n -> "))
+backpack = payload
+items_rdy = list()
 
+for k, v in items.items():
+    backpack -= v
+    if backpack > 0:
+        items_rdy.append(k)
+    else:
+        backpack += v
 
-# print(list(items.keys()))
-
-# payload = float(input("Enter a backpack payload: "))
-payload = 10
-# res = itertools.takewhile(lambda v: v[1] < payload, items.items())#
-# print(*res)
-
-# print(len(items))
-
-# weight = 0
-# print(weight)
-# for k, v in items.items():
-#     weight = weight + v
-#     if weight > payload:
-#         break
-#     else:
-#         print(k, end=', ')
-#         for a, b in items.items():
-#             weight = weight + b
-#             # print(weight)
-#             if weight > payload:
-#                 break
-#             elif k == a:
-#                 continue
-#             else:
-#                 print(a, end=', ')
-#         print(weight)
-#     print("---")
-#     weight = 0
+print(f"Поместилось {len(items_rdy)} предметов "
+      f"общим весом {payload - backpack:.2f} кг.\n"
+      f"{', '.join(items_rdy)}.")
