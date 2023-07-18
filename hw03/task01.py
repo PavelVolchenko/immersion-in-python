@@ -2,6 +2,5 @@
 # В результирующем списке не должно быть дубликатов.
 
 e = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 1, 2, 3, 4, 5, 1, 2, 3, 11, 4, 5, 1, 2, 3]
-result = list()
-[result.append(i) for i in set(e) if e.count(i) > 1]
+result = [i for i in set(e) if e.count(i) > 1]
 print(result)
