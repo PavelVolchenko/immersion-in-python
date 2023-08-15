@@ -56,7 +56,7 @@ def deco_json_writer(func):
 
 @deco_json_writer
 @deco_roots
-def find_roots(a, b, c: int):
+def find_roots(a: int, b: int, c: int):
     d = b ** 2 - 4 * a * c
     if d < 0:
         return "Корней нет"
