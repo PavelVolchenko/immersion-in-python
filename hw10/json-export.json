@@ -1,0 +1,797 @@
+[
+  {
+    "DeepPython": [
+      {
+        "homework": [
+          {
+            "hw01": {
+              "files size": 4406
+            },
+            "files": [
+              {
+                "file": "task01.py",
+                "size": 2312,
+                "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task01.py"
+              },
+              {
+                "file": "task02.py",
+                "size": 1043,
+                "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task02.py"
+              },
+              {
+                "file": "task03.py",
+                "size": 1051,
+                "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task03.py"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "homework": [
+          {
+            "hw02": {
+              "files size": 1268
+            },
+            "files": [
+              {
+                "file": "task01.py",
+                "size": 796,
+                "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task01.py"
+              },
+              {
+                "file": "task02.py",
+                "size": 472,
+                "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task02.py"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "homework": [
+          {
+            "hw03": {
+              "files size": 11398
+            },
+            "files": [
+              {
+                "file": "task01.py",
+                "size": 391,
+                "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task01.py"
+              },
+              {
+                "file": "task02.py",
+                "size": 9610,
+                "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task02.py"
+              },
+              {
+                "file": "task03.py",
+                "size": 1397,
+                "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task03.py"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "homework": [
+          {
+            "hw04": {
+              "files size": 1315
+            },
+            "files": [
+              {
+                "file": "task01.py",
+                "size": 579,
+                "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task01.py"
+              },
+              {
+                "file": "task02.py",
+                "size": 422,
+                "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task02.py"
+              },
+              {
+                "file": "task03.py",
+                "size": 314,
+                "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task03.py"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "homework": [
+          {
+            "hw05": {
+              "files size": 1664
+            },
+            "files": [
+              {
+                "file": "task01.py",
+                "size": 532,
+                "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task01.py"
+              },
+              {
+                "file": "task02.py",
+                "size": 849,
+                "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task02.py"
+              },
+              {
+                "file": "task03.py",
+                "size": 283,
+                "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task03.py"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "homework": [
+          {
+            "hw06": {
+              "files size": 3244
+            },
+            "files": [
+              {
+                "file": "task01.py",
+                "size": 1850,
+                "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task01.py"
+              },
+              {
+                "file": "task02.py",
+                "size": 1394,
+                "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task02.py"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "homework": [
+          {
+            "hw07": [
+              {
+                "test": {
+                  "files size": 0
+                },
+                "files": [
+                  {
+                    "file": "cargo.txt",
+                    "size": 0,
+                    "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\cargo.txt"
+                  },
+                  {
+                    "file": "logo.jpg",
+                    "size": 0,
+                    "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\logo.jpg"
+                  },
+                  {
+                    "file": "promo.jpg",
+                    "size": 0,
+                    "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\promo.jpg"
+                  },
+                  {
+                    "file": "result.txt",
+                    "size": 0,
+                    "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\result.txt"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "hw07": [
+              {
+                "test2": {
+                  "files size": 0
+                },
+                "files": [
+                  {
+                    "file": "cargo.txt",
+                    "size": 0,
+                    "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\cargo.txt"
+                  },
+                  {
+                    "file": "logo.jpg",
+                    "size": 0,
+                    "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\logo.jpg"
+                  },
+                  {
+                    "file": "promo.jpg",
+                    "size": 0,
+                    "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\promo.jpg"
+                  },
+                  {
+                    "file": "result.txt",
+                    "size": 0,
+                    "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\result.txt"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "hw07": {
+              "files size": 2401
+            },
+            "files": [
+              {
+                "file": "rename.py",
+                "size": 2401,
+                "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\rename.py"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "homework": [
+          {
+            "hw08": {
+              "files size": 68587
+            },
+            "files": [
+              {
+                "file": "csv-export.csv",
+                "size": 12822,
+                "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\csv-export.csv"
+              },
+              {
+                "file": "json-export.json",
+                "size": 40673,
+                "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\json-export.json"
+              },
+              {
+                "file": "pickle.pickle",
+                "size": 13168,
+                "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\pickle.pickle"
+              },
+              {
+                "file": "task01.py",
+                "size": 1924,
+                "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task01.py"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "homework": [
+          {
+            "hw09": {
+              "files size": 8062
+            },
+            "files": [
+              {
+                "file": "numbers.csv",
+                "size": 1020,
+                "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\numbers.csv"
+              },
+              {
+                "file": "result.json",
+                "size": 4694,
+                "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\result.json"
+              },
+              {
+                "file": "task01.py",
+                "size": 2348,
+                "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task01.py"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "homework": [
+          {
+            "hw10": {
+              "files size": 39942
+            },
+            "files": [
+              {
+                "file": "csv-export.csv",
+                "size": 12574,
+                "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\csv-export.csv"
+              },
+              {
+                "file": "json-export.json",
+                "size": 23088,
+                "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\json-export.json"
+              },
+              {
+                "file": "task01.py",
+                "size": 2173,
+                "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task01.py"
+              },
+              {
+                "file": "task02.py",
+                "size": 2107,
+                "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task02.py"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "homework": [
+          {
+            "hw12": {
+              "files size": 868
+            },
+            "files": [
+              {
+                "file": "task01.py",
+                "size": 868,
+                "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task01.py"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "homework": {
+          "files size": 0
+        },
+        "files": []
+      }
+    ]
+  },
+  {
+    "DeepPython": [
+      {
+        "sem02": {
+          "files size": 7198
+        },
+        "files": [
+          {
+            "file": "task01.py",
+            "size": 542,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task01.py"
+          },
+          {
+            "file": "task02.py",
+            "size": 1214,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task02.py"
+          },
+          {
+            "file": "task03.py",
+            "size": 1347,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task03.py"
+          },
+          {
+            "file": "task04.py",
+            "size": 842,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task04.py"
+          },
+          {
+            "file": "task05.py",
+            "size": 531,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task05.py"
+          },
+          {
+            "file": "task06.py",
+            "size": 2722,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task06.py"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "DeepPython": [
+      {
+        "sem04": {
+          "files size": 5616
+        },
+        "files": [
+          {
+            "file": "task01.py",
+            "size": 930,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task01.py"
+          },
+          {
+            "file": "task02.py",
+            "size": 510,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task02.py"
+          },
+          {
+            "file": "task03.py",
+            "size": 660,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task03.py"
+          },
+          {
+            "file": "task04.py",
+            "size": 745,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task04.py"
+          },
+          {
+            "file": "task05.py",
+            "size": 896,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task05.py"
+          },
+          {
+            "file": "task06.py",
+            "size": 944,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task06.py"
+          },
+          {
+            "file": "task07.py",
+            "size": 931,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task07.py"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "DeepPython": [
+      {
+        "sem05": {
+          "files size": 4548
+        },
+        "files": [
+          {
+            "file": "task01.py",
+            "size": 628,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task01.py"
+          },
+          {
+            "file": "task02.py",
+            "size": 425,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task02.py"
+          },
+          {
+            "file": "task03.py",
+            "size": 465,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task03.py"
+          },
+          {
+            "file": "task04.py",
+            "size": 439,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task04.py"
+          },
+          {
+            "file": "task05.py",
+            "size": 689,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task05.py"
+          },
+          {
+            "file": "task06.py",
+            "size": 1498,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task06.py"
+          },
+          {
+            "file": "task07.py",
+            "size": 404,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task07.py"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "DeepPython": [
+      {
+        "sem06": {
+          "files size": 5914
+        },
+        "files": [
+          {
+            "file": "task01.py",
+            "size": 759,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task01.py"
+          },
+          {
+            "file": "task02.py",
+            "size": 767,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task02.py"
+          },
+          {
+            "file": "task03.py",
+            "size": 722,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task03.py"
+          },
+          {
+            "file": "task04.py",
+            "size": 1468,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task04.py"
+          },
+          {
+            "file": "task05.py",
+            "size": 825,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task05.py"
+          },
+          {
+            "file": "task06.py",
+            "size": 682,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task06.py"
+          },
+          {
+            "file": "task07.py",
+            "size": 691,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task07.py"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "DeepPython": [
+      {
+        "sem07": {
+          "files size": 7371
+        },
+        "files": [
+          {
+            "file": "task01.py",
+            "size": 1697,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task01.py"
+          },
+          {
+            "file": "task02.py",
+            "size": 1456,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task02.py"
+          },
+          {
+            "file": "task03.py",
+            "size": 474,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task03.py"
+          },
+          {
+            "file": "task04.py",
+            "size": 428,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task04.py"
+          },
+          {
+            "file": "task05.py",
+            "size": 1274,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task05.py"
+          },
+          {
+            "file": "task06.py",
+            "size": 508,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task06.py"
+          },
+          {
+            "file": "task07.py",
+            "size": 859,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task07.py"
+          },
+          {
+            "file": "task08.py",
+            "size": 675,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task08.py"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "DeepPython": [
+      {
+        "sem09": {
+          "files size": 541
+        },
+        "files": [
+          {
+            "file": "task01.py",
+            "size": 0,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task01.py"
+          },
+          {
+            "file": "task02.py",
+            "size": 0,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task02.py"
+          },
+          {
+            "file": "task03.py",
+            "size": 0,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task03.py"
+          },
+          {
+            "file": "task04.py",
+            "size": 0,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task04.py"
+          },
+          {
+            "file": "task05.py",
+            "size": 541,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task05.py"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "DeepPython": [
+      {
+        "sem10": {
+          "files size": 6082
+        },
+        "files": [
+          {
+            "file": "task01.py",
+            "size": 652,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task01.py"
+          },
+          {
+            "file": "task02.py",
+            "size": 829,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task02.py"
+          },
+          {
+            "file": "task03.py",
+            "size": 1321,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task03.py"
+          },
+          {
+            "file": "task04.py",
+            "size": 1315,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task04.py"
+          },
+          {
+            "file": "task05.py",
+            "size": 503,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task05.py"
+          },
+          {
+            "file": "task06.py",
+            "size": 1462,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task06.py"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "DeepPython": [
+      {
+        "sem11": {
+          "files size": 7926
+        },
+        "files": [
+          {
+            "file": "task01.py",
+            "size": 674,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task01.py"
+          },
+          {
+            "file": "task02.py",
+            "size": 1458,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task02.py"
+          },
+          {
+            "file": "task03.py",
+            "size": 1348,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task03.py"
+          },
+          {
+            "file": "task04.py",
+            "size": 2160,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task04.py"
+          },
+          {
+            "file": "task05.py",
+            "size": 2286,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task05.py"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "DeepPython": [
+      {
+        "sem12": {
+          "files size": 8765
+        },
+        "files": [
+          {
+            "file": "task01.py",
+            "size": 2162,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task01.py"
+          },
+          {
+            "file": "task02.py",
+            "size": 1276,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task02.py"
+          },
+          {
+            "file": "task03.py",
+            "size": 966,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task03.py"
+          },
+          {
+            "file": "task04.py",
+            "size": 2022,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task04.py"
+          },
+          {
+            "file": "task05.py",
+            "size": 2339,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task05.py"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "DeepPython": [
+      {
+        "sem13": [
+          {
+            "__pycache__": {
+              "files size": 988
+            },
+            "files": [
+              {
+                "file": "task03.cpython-311.pyc",
+                "size": 988,
+                "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task03.cpython-311.pyc"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sem13": {
+          "files size": 8964
+        },
+        "files": [
+          {
+            "file": "task01.py",
+            "size": 662,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task01.py"
+          },
+          {
+            "file": "task02.py",
+            "size": 693,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task02.py"
+          },
+          {
+            "file": "task03.py",
+            "size": 391,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task03.py"
+          },
+          {
+            "file": "task04.py",
+            "size": 2867,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task04.py"
+          },
+          {
+            "file": "task05.py",
+            "size": 4351,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task05.py"
+          },
+          {
+            "file": "task06.py",
+            "size": 0,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task06.py"
+          },
+          {
+            "file": "task07.py",
+            "size": 0,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task07.py"
+          },
+          {
+            "file": "task08.py",
+            "size": 0,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task08.py"
+          },
+          {
+            "file": "task09.py",
+            "size": 0,
+            "path": "E:\\pythonProject\\GB\\DeepPython\\homework\\hw10\\task09.py"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "DeepPython": {
+      "files size": 0
+    },
+    "files": []
+  }
+]

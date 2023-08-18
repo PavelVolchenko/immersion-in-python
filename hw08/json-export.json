@@ -75,10 +75,10 @@
                     "heads": [
                       [
                         {
-                          "main": "2070 bytes"
+                          "main": "2677 bytes"
                         }
                       ],
-                      "total size: 2070 bytes"
+                      "total size: 2677 bytes"
                     ]
                   }
                 ]
@@ -91,10 +91,10 @@
                         "origin": [
                           [
                             {
-                              "main": "1650 bytes"
+                              "main": "2100 bytes"
                             }
                           ],
-                          "total size: 1650 bytes"
+                          "total size: 2100 bytes"
                         ]
                       }
                     ]
@@ -119,10 +119,10 @@
             "logs": [
               [
                 {
-                  "HEAD": "2258 bytes"
+                  "HEAD": "2865 bytes"
                 }
               ],
-              "total size: 2258 bytes"
+              "total size: 2865 bytes"
             ]
           }
         ]
@@ -153,6 +153,20 @@
                     }
                   ],
                   "total size: 160 bytes"
+                ]
+              }
+            ]
+          },
+          {
+            "objects": [
+              {
+                "08": [
+                  [
+                    {
+                      "132a54e1b948f0209102e0a6f2e5f7456110d2": "156 bytes"
+                    }
+                  ],
+                  "total size: 156 bytes"
                 ]
               }
             ]
@@ -247,6 +261,20 @@
           {
             "objects": [
               {
+                "28": [
+                  [
+                    {
+                      "f1d924d8776071bb07d652b47679865fcfe7d0": "1041 bytes"
+                    }
+                  ],
+                  "total size: 1041 bytes"
+                ]
+              }
+            ]
+          },
+          {
+            "objects": [
+              {
                 "2a": [
                   [
                     {
@@ -268,6 +296,20 @@
                     }
                   ],
                   "total size: 260 bytes"
+                ]
+              }
+            ]
+          },
+          {
+            "objects": [
+              {
+                "32": [
+                  [
+                    {
+                      "42f55387868b10b4f90ad8dd23a57196b2d420": "1465 bytes"
+                    }
+                  ],
+                  "total size: 1465 bytes"
                 ]
               }
             ]
@@ -303,6 +345,20 @@
           {
             "objects": [
               {
+                "42": [
+                  [
+                    {
+                      "7bb8940e919a5a299e3db87b8d1991f2dddec4": "163 bytes"
+                    }
+                  ],
+                  "total size: 163 bytes"
+                ]
+              }
+            ]
+          },
+          {
+            "objects": [
+              {
                 "47": [
                   [
                     {
@@ -310,6 +366,34 @@
                     }
                   ],
                   "total size: 80 bytes"
+                ]
+              }
+            ]
+          },
+          {
+            "objects": [
+              {
+                "4b": [
+                  [
+                    {
+                      "77271532767b7d0fc0a9f604c42655def346d9": "275 bytes"
+                    }
+                  ],
+                  "total size: 275 bytes"
+                ]
+              }
+            ]
+          },
+          {
+            "objects": [
+              {
+                "4c": [
+                  [
+                    {
+                      "4de6507ba26c37d4bb4e0719c6adbea0ed6ee5": "850 bytes"
+                    }
+                  ],
+                  "total size: 850 bytes"
                 ]
               }
             ]
@@ -327,6 +411,20 @@
                     }
                   ],
                   "total size: 917 bytes"
+                ]
+              }
+            ]
+          },
+          {
+            "objects": [
+              {
+                "4e": [
+                  [
+                    {
+                      "78651cb17b0222911bc8ed65669e9e79b7f15a": "3385 bytes"
+                    }
+                  ],
+                  "total size: 3385 bytes"
                 ]
               }
             ]
@@ -404,13 +502,30 @@
           {
             "objects": [
               {
+                "63": [
+                  [
+                    {
+                      "a0bae2b639f86ad6e6741bbd9d984d73a2815b": "224 bytes"
+                    }
+                  ],
+                  "total size: 224 bytes"
+                ]
+              }
+            ]
+          },
+          {
+            "objects": [
+              {
                 "64": [
                   [
                     {
                       "0af77d9aba6fc6bcd2f6d144d861f78a290e61": "128 bytes"
+                    },
+                    {
+                      "c73d079600ae5dbe47b2536e576c25348b1b8d": "157 bytes"
                     }
                   ],
-                  "total size: 128 bytes"
+                  "total size: 285 bytes"
                 ]
               }
             ]
@@ -450,9 +565,12 @@
                   [
                     {
                       "7895a5bcceee5fa58178fa256d5defebadc718": "148 bytes"
+                    },
+                    {
+                      "bed0c46bb5e8fd2c8a90163325d357b3f7881a": "87 bytes"
                     }
                   ],
-                  "total size: 148 bytes"
+                  "total size: 235 bytes"
                 ]
               }
             ]
@@ -467,6 +585,20 @@
                     }
                   ],
                   "total size: 81 bytes"
+                ]
+              }
+            ]
+          },
+          {
+            "objects": [
+              {
+                "7a": [
+                  [
+                    {
+                      "d9a2475805cc22aae8413ff8a19ae60bc7e57b": "529 bytes"
+                    }
+                  ],
+                  "total size: 529 bytes"
                 ]
               }
             ]
@@ -516,6 +648,20 @@
           {
             "objects": [
               {
+                "86": [
+                  [
+                    {
+                      "c73c4e135c9018cbfd4201dccc9c177306b6a6": "163 bytes"
+                    }
+                  ],
+                  "total size: 163 bytes"
+                ]
+              }
+            ]
+          },
+          {
+            "objects": [
+              {
                 "87": [
                   [
                     {
@@ -523,6 +669,20 @@
                     }
                   ],
                   "total size: 96 bytes"
+                ]
+              }
+            ]
+          },
+          {
+            "objects": [
+              {
+                "8a": [
+                  [
+                    {
+                      "f3a257be7c0ab63e3128550970f6392116185f": "54 bytes"
+                    }
+                  ],
+                  "total size: 54 bytes"
                 ]
               }
             ]
@@ -572,6 +732,20 @@
           {
             "objects": [
               {
+                "8f": [
+                  [
+                    {
+                      "6d9866eab6ecf903b24973acd47a784b25a412": "515 bytes"
+                    }
+                  ],
+                  "total size: 515 bytes"
+                ]
+              }
+            ]
+          },
+          {
+            "objects": [
+              {
                 "91": [
                   [
                     {
@@ -614,13 +788,33 @@
           {
             "objects": [
               {
+                "9f": [
+                  [
+                    {
+                      "47382083ff1bb97928d89a4c758514459a961f": "3572 bytes"
+                    }
+                  ],
+                  "total size: 3572 bytes"
+                ]
+              }
+            ]
+          },
+          {
+            "objects": [
+              {
                 "a1": [
                   [
                     {
+                      "0d9d1dab9eb99ed7053499a9f4e585c1e5aa12": "274 bytes"
+                    },
+                    {
                       "b9ba8a617011ec578f9bdf6b6db09d6c274872": "169 bytes"
+                    },
+                    {
+                      "d70c41262080afaeb04cff197309ebe006b6f9": "1036 bytes"
                     }
                   ],
-                  "total size: 169 bytes"
+                  "total size: 1479 bytes"
                 ]
               }
             ]
@@ -631,10 +825,13 @@
                 "a5": [
                   [
                     {
+                      "41a9f5ce91abb92678aa00817bf65f21090691": "161 bytes"
+                    },
+                    {
                       "909b69a188371afbeca560427dd7701d504630": "224 bytes"
                     }
                   ],
-                  "total size: 224 bytes"
+                  "total size: 385 bytes"
                 ]
               }
             ]
@@ -694,6 +891,34 @@
                     }
                   ],
                   "total size: 175 bytes"
+                ]
+              }
+            ]
+          },
+          {
+            "objects": [
+              {
+                "b7": [
+                  [
+                    {
+                      "b39c9d3bb27f95dbe393827f3da98722f42ffc": "89 bytes"
+                    }
+                  ],
+                  "total size: 89 bytes"
+                ]
+              }
+            ]
+          },
+          {
+            "objects": [
+              {
+                "b8": [
+                  [
+                    {
+                      "b182d430e8dfe48e44fe78a6dfaed42441e204": "126 bytes"
+                    }
+                  ],
+                  "total size: 126 bytes"
                 ]
               }
             ]
@@ -784,6 +1009,20 @@
                     }
                   ],
                   "total size: 258 bytes"
+                ]
+              }
+            ]
+          },
+          {
+            "objects": [
+              {
+                "d2": [
+                  [
+                    {
+                      "9cb3a538080ec3d7666a06962100ff975d9592": "1389 bytes"
+                    }
+                  ],
+                  "total size: 1389 bytes"
                 ]
               }
             ]
@@ -990,13 +1229,33 @@
           {
             "objects": [
               {
+                "f6": [
+                  [
+                    {
+                      "06d892daa4d1a0de739b59e6d49d9342066112": "275 bytes"
+                    },
+                    {
+                      "9b6fc195fc6920f24e2cdd6d544c0458b37d89": "446 bytes"
+                    }
+                  ],
+                  "total size: 721 bytes"
+                ]
+              }
+            ]
+          },
+          {
+            "objects": [
+              {
                 "f7": [
                   [
+                    {
+                      "dc2a2532f4331b85b7ce5a5aff812805005f6a": "1223 bytes"
+                    },
                     {
                       "f7f540f9aeef5b02e42ee593f60023abe8afef": "491 bytes"
                     }
                   ],
-                  "total size: 491 bytes"
+                  "total size: 1714 bytes"
                 ]
               }
             ]
@@ -1011,6 +1270,23 @@
                     }
                   ],
                   "total size: 259 bytes"
+                ]
+              }
+            ]
+          },
+          {
+            "objects": [
+              {
+                "fa": [
+                  [
+                    {
+                      "13a0c8b74c3f66b4c569b438c55af70a9cb64e": "4399 bytes"
+                    },
+                    {
+                      "3bc8386235bfffd5163ad0492b16e277f1d190": "125 bytes"
+                    }
+                  ],
+                  "total size: 4524 bytes"
                 ]
               }
             ]
@@ -1119,7 +1395,7 @@
         ".git": [
           [
             {
-              "COMMIT_EDITMSG": "20 bytes"
+              "COMMIT_EDITMSG": "10 bytes"
             },
             {
               "config": "316 bytes"
@@ -1131,10 +1407,10 @@
               "HEAD": "21 bytes"
             },
             {
-              "index": "2501 bytes"
+              "index": "3284 bytes"
             }
           ],
-          "total size: 2931 bytes"
+          "total size: 3704 bytes"
         ]
       }
     ]
@@ -1332,6 +1608,57 @@
             }
           ],
           "total size: 54769 bytes"
+        ]
+      }
+    ]
+  },
+  {
+    "homework": [
+      {
+        "hw09": [
+          [
+            {
+              "numbers.csv": "1020 bytes"
+            },
+            {
+              "result.json": "4694 bytes"
+            },
+            {
+              "task01.py": "2348 bytes"
+            }
+          ],
+          "total size: 8062 bytes"
+        ]
+      }
+    ]
+  },
+  {
+    "homework": [
+      {
+        "hw10": [
+          [
+            {
+              "task01.py": "2173 bytes"
+            },
+            {
+              "task02.py": "2064 bytes"
+            }
+          ],
+          "total size: 4237 bytes"
+        ]
+      }
+    ]
+  },
+  {
+    "homework": [
+      {
+        "hw12": [
+          [
+            {
+              "task01.py": "868 bytes"
+            }
+          ],
+          "total size: 868 bytes"
         ]
       }
     ]
