@@ -98,7 +98,6 @@ class Student:
         print("=" * 38)
         total = 0
         total_average_score = 0
-        course_average_score = 0
         courses_count = 0
         for course, score in self.courses.items():
             if len(score['Оценка']) == 0:
@@ -108,10 +107,9 @@ class Student:
                     total += s
                 print(f"{course}. Оценки: {str(score['Оценка']).replace('[', '').replace(']', '')}")
             courses_count += 1
-            courses_average_score = total / len(score['Оценка'])
-            total_average_score += courses_average_score
+            course_average_score = total / len(score['Оценка'])
+            total_average_score += course_average_score
             total = 0
-            # print(f"Average score: {courses_average_score}")
         print("_" * 38)
         print(f"Средняя оценка по всем предметам: {total_average_score / courses_count:.2f}")
 
