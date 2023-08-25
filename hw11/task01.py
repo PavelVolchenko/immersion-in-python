@@ -46,6 +46,6 @@ B.print_matrix()
 C = A + B
 C.print_matrix()
 
-# print(f"{A = }, hash({hash(A)})")
-# print(f"{B = }, hash({hash(B)})")
-# print(f"{C = }, hash({hash(C)})")
+print(f"{A = }, hash({hash(A)}) {id(A)=}")
+print(f"{B = }, hash({hash(B)}) {id(B)=}")
+print(f"{C = }, hash({hash(C)}) {id(C)=}")
