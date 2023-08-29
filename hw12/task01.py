@@ -78,24 +78,52 @@ class Student:
         self.courses[course] = mark_list
         return self.courses
 
+    # def average_mark(self):
+    #     total = 0
+    #     print("=" * 38)
+    #     print("\t\tРЕЗУЛЬТАТЫ ТЕСТИРОВАНИЯ")
+    #     print("=" * 38)
+    #     for course, mark in self.courses.items():
+    #         if len(mark['Тест']) == 0:
+    #             continue
+    #         else:
+    #             for m in mark['Тест']:
+    #                 total += m
+    #             print(f"{course}. Средний балл: {total / len(mark['Тест']):.2f}")
+    #             print(f"Результаты тестирования: {str(mark['Тест']).replace('[', '').replace(']', '')}")
+
     def average_mark(self):
         total = 0
-        print("=" * 38)
-        print("\t\tРЕЗУЛЬТАТЫ ТЕСТИРОВАНИЯ")
-        print("=" * 38)
         for course, mark in self.courses.items():
             if len(mark['Тест']) == 0:
                 continue
             else:
                 for m in mark['Тест']:
                     total += m
-                print(f"{course}. Средний балл: {total / len(mark['Тест']):.2f}")
-                print(f"Результаты тестирования: {str(mark['Тест']).replace('[', '').replace(']', '')}")
+            return total / len(mark['Тест'])
+
+    # def average_score(self):
+    #     # print("=" * 38)
+    #     # print("\t\tУСПЕВАЕМОСТЬ ПО ПРЕДМЕТАМ")
+    #     # print("=" * 38)
+    #     total = 0
+    #     total_average_score = 0
+    #     courses_count = 0
+    #     for course, score in self.courses.items():
+    #         if len(score['Оценка']) == 0:
+    #             continue
+    #         else:
+    #             for s in score['Оценка']:
+    #                 total += s
+    #             print(f"{course}. Оценки: {str(score['Оценка']).replace('[', '').replace(']', '')}")
+    #         courses_count += 1
+    #         course_average_score = total / len(score['Оценка'])
+    #         total_average_score += course_average_score
+    #         total = 0
+    #     # print("_" * 38)
+    #     print(f"Средняя оценка по всем предметам: {total_average_score / courses_count:.2f}")
 
     def average_score(self):
-        print("=" * 38)
-        print("\t\tУСПЕВАЕМОСТЬ ПО ПРЕДМЕТАМ")
-        print("=" * 38)
         total = 0
         total_average_score = 0
         courses_count = 0
@@ -105,13 +133,16 @@ class Student:
             else:
                 for s in score['Оценка']:
                     total += s
-                print(f"{course}. Оценки: {str(score['Оценка']).replace('[', '').replace(']', '')}")
             courses_count += 1
             course_average_score = total / len(score['Оценка'])
             total_average_score += course_average_score
             total = 0
-        print("_" * 38)
-        print(f"Средняя оценка по всем предметам: {total_average_score / courses_count:.2f}")
+            return total_average_score / courses_count
+
+    def report(self):
+        print(self)
+        print(self.average_score())
+        print(self.average_mark())
 
     @staticmethod
     def load_courses():
@@ -122,21 +153,15 @@ class Student:
                 courses.append(*row)
             return {item: {"Оценка": list(), "Тест": list()} for item in courses}
 
-    @staticmethod
-    def report():
-        print(one)
-        one.average_mark()
-        one.average_score()
-
 
 # course = ['Русский язык', 'Математика', 'Физика', 'История', 'Информатика', 'Литература']
-
 # with open('course.csv', "w", newline='', encoding="UTF-8") as file:
 #     writer = csv.writer(file, delimiter='\n')
 #     writer.writerow(course)
 
-
 one = Student('Волченко', 'Павел', "Александрович")
+two = Student('Коротун', 'Андрей', "Викторович")
+three = Student('Rротун', 'Rдрей', "Rкторович")
 
 one.set_score("Математика", 5)
 one.set_score("Математика", 4)
@@ -166,9 +191,35 @@ one.set_score("Информатика", 5)
 one.set_score("Информатика", 5)
 one.set_score("Информатика", 5)
 
+two.set_score("Математика", 5)
+two.set_score("Математика", 4)
+two.set_score("Математика", 3)
+two.set_mark("Математика", 89)
+two.set_mark("Математика", 75)
+two.set_mark("Математика", 60)
+two.set_mark("Математика", 100)
+two.set_mark("Русский язык", 55)
+two.set_mark("Русский язык", 35)
+two.set_mark("Русский язык", 27)
+two.set_mark("Русский язык", 26)
+two.set_mark("Русский язык", 75)
+two.set_score("Русский язык", 4)
+two.set_score("Русский язык", 2)
+two.set_score("Русский язык", 3)
+two.set_score("Русский язык", 4)
+two.set_score("История", 4)
+two.set_score("История", 5)
+two.set_score("История", 4)
+two.set_score("История", 3)
+two.set_score("История", 5)
+two.set_score("История", 5)
+
+
 # print(one)
 # one.average_mark()
 # one.average_score()
 # pprint(one.courses)
 
 one.report()
+two.report()
+three.report()
