@@ -1,0 +1,15 @@
+| WARNING  2023-09-05 08:17:24,312   | LINE 35    | FUNC verify          | RESULT 0 не допустимое значение. |
+| INFO     2023-09-05 08:17:26,804   | LINE 59    | FUNC __init__        | RESULT Square(30, 20)       |
+| INFO     2023-09-05 08:17:26,805   | LINE 74    | FUNC get_area        | RESULT 600                  |
+| INFO     2023-09-05 08:17:26,805   | LINE 78    | FUNC get_perimetr    | RESULT 100                  |
+| WARNING  2023-09-05 08:17:31,919   | LINE 32    | FUNC verify          | RESULT sdf не допустимое значение |
+| INFO     2023-09-05 08:17:36,754   | LINE 59    | FUNC __init__        | RESULT Square(30, 100)      |
+| INFO     2023-09-05 08:17:36,755   | LINE 74    | FUNC get_area        | RESULT 3000                 |
+| INFO     2023-09-05 08:17:36,755   | LINE 78    | FUNC get_perimetr    | RESULT 260                  |
+| INFO     2023-09-05 08:17:42,746   | LINE 59    | FUNC __init__        | RESULT Square(2, 8)         |
+| INFO     2023-09-05 08:17:42,746   | LINE 74    | FUNC get_area        | RESULT 16                   |
+| INFO     2023-09-05 08:17:42,747   | LINE 78    | FUNC get_perimetr    | RESULT 20                   |
+| INFO     2023-09-05 08:17:44,781   | LINE 59    | FUNC __init__        | RESULT Square(2, 83)        |
+| INFO     2023-09-05 08:17:44,782   | LINE 74    | FUNC get_area        | RESULT 166                  |
+| INFO     2023-09-05 08:17:44,782   | LINE 78    | FUNC get_perimetr    | RESULT 170                  |
+| WARNING  2023-09-05 08:17:49,710   | LINE 35    | FUNC verify          | RESULT 0 не допустимое значение. |

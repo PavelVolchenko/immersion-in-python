@@ -12,7 +12,8 @@ class TypeException(Exception):
         self.side = side
 
     def __str__(self):
-        return f'Входной параметр стороны прямоугольника должен быть числом.\n\t\t\t\t{self.side} не допустимое значение.'
+        return f'Входной параметр стороны прямоугольника должен быть числом.' \
+               f'\n\t\t\t\t{self.side} не допустимое значение.'
 
 
 class ValueException(Exception):
@@ -20,6 +21,9 @@ class ValueException(Exception):
         self.side = side
 
     def __str__(self):
+        """
+        Входной параметр стороны прямоугольника не может быть отрицательной величиной либо нулем.
+        """
         return f'Входной параметр стороны прямоугольника не может быть отрицательной величиной либо нулем.' \
                f'\n\t\t\t\t{self.side} не допустимое значение.'
 
@@ -29,7 +33,7 @@ class Side:
     def verify(cls, value):
         try:
             int(value)
-        except ValueError as e:
+        except ValueError:
             raise TypeException(value)
         if int(value) <= 0:
             raise ValueException(value)
@@ -48,7 +52,7 @@ class Side:
 class TestSquare(unittest.TestCase):
     def test_value_error(self):
         with self.assertRaises(ValueError):
-            Square(0, 5)
+            Square(3, 5)
 
     def test_type_error_add(self):
         with self.assertRaises(TypeError):
@@ -108,9 +112,12 @@ class Square:
 
 
 if __name__ == "__main__":
-    unittest.main()
+    import doctest
 
-    square_1 = Square(8, 4)
+    unittest.main()
+    doctest.testmod(verbose=True)
+
+    square_1 = Square(0, 4)
     square_2 = Square(5, 6)
 
     square_3 = square_1 + square_2

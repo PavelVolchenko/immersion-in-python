@@ -2,27 +2,22 @@
 # Напишите к ним классы исключения с выводом подробной информации.
 # Поднимайте исключения внутри основного кода.
 # Например, нельзя создавать прямоугольник со сторонами отрицательной длины.
-
-from functools import total_ordering
-import unittest
-
+import logging
+import argparse
 
 class TypeException(Exception):
     def __init__(self, side):
         self.side = side
 
     def __str__(self):
-        return f'Входной параметр стороны прямоугольника должен быть числом.' \
-               f'\n\t\t\t\t{self.side} не допустимое значение.'
-
+        return f'{self.side} не допустимое значение'
 
 class ValueException(Exception):
     def __init__(self, side):
         self.side = side
 
     def __str__(self):
-        return f'Входной параметр стороны прямоугольника не может быть отрицательной величиной либо нулем.' \
-               f'\n\t\t\t\t{self.side} не допустимое значение.'
+        return f'{self.side} не допустимое значение.'
 
 
 class Side:
@@ -30,9 +25,11 @@ class Side:
     def verify(cls, value):
         try:
             int(value)
-        except ValueError as e:
+        except ValueError:
+            logging.warning(TypeException(value))
             raise TypeException(value)
         if int(value) <= 0:
+            logging.warning(ValueException(value))
             raise ValueException(value)
 
     def __set_name__(self, owner, name):
@@ -43,28 +40,9 @@ class Side:
 
     def __set__(self, instance, value):
         self.verify(value)
-        instance.__dict__[self.name] = value
+        instance.__dict__[self.name] = int(value)
 
 
-class TestSquare(unittest.TestCase):
-    def test_value_error(self):
-        with self.assertRaises(ValueError):
-            Square(0, 5)
-
-    def test_type_error_add(self):
-        with self.assertRaises(TypeError):
-            Square(4, 5) + Other
-
-    def test_type_error_sub(self):
-        with self.assertRaises(TypeError):
-            Square(4, 5) - Other
-
-
-class Other:
-    pass
-
-
-@total_ordering
 class Square:
     a = Side()
     b = Side()
@@ -75,6 +53,7 @@ class Square:
             self.b = a
         else:
             self.b = b
+        logging.info(self)
 
     def __add__(self, other):
         if isinstance(other, Square):
@@ -89,9 +68,11 @@ class Square:
         return NotImplemented
 
     def get_area(self):
+        logging.info(self.a * self.b)
         return self.a * self.b
 
     def get_perimetr(self):
+        logging.info(2 * (self.a + self.b))
         return 2 * (self.a + self.b)
 
     def __repr__(self):
@@ -109,20 +90,15 @@ class Square:
 
 
 if __name__ == "__main__":
-    unittest.main()
 
-    square_1 = Square(8, 4)
-    square_2 = Square(5, 6)
+    FORMAT = "| {levelname:<8} {asctime:<25} | LINE {lineno:<5} | FUNC {funcName:<15} | RESULT {message:<20} |"
+    logging.basicConfig(level=logging.DEBUG, filename="py_log.log", filemode="a", encoding='utf-8', style="{",
+                        format=FORMAT)
+    parser = argparse.ArgumentParser(description='Вычисляет площадь и периметр прямоугольника')
+    parser.add_argument('a', metavar='a', help='Введите сторону А')
+    parser.add_argument('b', metavar='b', help='Введите сторону B')
+    args = parser.parse_args()
 
-    square_3 = square_1 + square_2
-    square_4 = square_2 - square_1
-
-    print(f"{square_1} + {square_2} = {square_3}")
-    print(f"{square_2} - {square_1} = {square_4}")
-
-    print(square_1 > square_2)
-    print(square_1 < square_2)
-    print(square_1 >= square_2)
-    print(square_1 <= square_2)
-    print(square_1 == square_2)
-    print(square_1 != square_2)
+    s = Square(args.a, args.b)
+    s.get_area()
+    s.get_perimetr()
